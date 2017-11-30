@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Exercise02 {
@@ -35,5 +36,23 @@ public class Exercise02 {
                     break;
             }
         } while (running);
+
+        int[] arr = {1, 2, 3, 4, 5};
+        for (int anArr : arr) {
+            System.out.println("Value:" + anArr);
+        }
+
+        ArrayList<String> strings = new ArrayList<>();
+        strings.add("hej");
+        strings.add("på");
+        strings.add("er");
+        for (String string : strings) {
+            System.out.println(string);
+        }
+
+        strings.size();
+        strings.isEmpty();
+        strings.get(0);
+
     }
 }
